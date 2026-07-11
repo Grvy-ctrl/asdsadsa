@@ -1,0 +1,15 @@
+{
+  "name": "roblox-follow-proxy",
+  "version": "1.0.0",
+  "description": "Private proxy that checks Roblox follow status using an authenticated bot session, without ever exposing the cookie to the game.",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
